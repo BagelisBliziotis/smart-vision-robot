@@ -1,0 +1,16 @@
+# STM32CubeIDE
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.map
+
+# Arduino build artifacts
+build/
+*.hex
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
