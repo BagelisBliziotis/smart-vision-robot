@@ -29,4 +29,23 @@ Drive axle line ≈ Y 38.5 (rear) · caster at Y ≈ 100 (front) → wheelbase �
 ## Print settings
 PETG · 0.2 mm layers · 3 walls · 25–30 % infill · printed flat, largest face down (no supports needed)
 
-Superseded by v3 — see below.
+## Superseded by v3 — see below.
+
+## Chassis v3 (Jul 6) — final layout for this build
+
+v2 review caught a CG problem: the power bank bay sat behind the wheel
+contact line, outside the support triangle, so the robot would tip
+backward under load. v2 was superseded before use. v3 keeps the same
+150 × 191 × 3 mm plate but fixes it with layout instead of hardware:
+
+- Motor zip-tie grid (Ø3.2 ×8) moved to the rear — 30 mm and 47 mm from
+  the rear edge, the identical relationship it had on v1
+- Caster mount unchanged at the front (Ø4.2 ×2, 40 mm apart, 20 mm from
+  the front edge)
+- Standoffs (Ø3.5 ×4) at x = ±55, 15 mm from front and rear edges —
+  second-deck rectangle is now 110 × 161 mm
+- The inserted 70 mm of mid-plate becomes the power-bank bay, now inside
+  the wheel–caster support span: estimated CG ~45–50 mm ahead of the
+  axle, ~60/40 wheel/caster load split
+- Keeps three-point contact — no rocking, no extra parts, tipping solved
+  by rearrangement rather than a second caster
