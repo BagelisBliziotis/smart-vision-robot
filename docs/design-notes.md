@@ -28,3 +28,5 @@ Drive axle line ≈ Y 38.5 (rear) · caster at Y ≈ 100 (front) → wheelbase �
 
 ## Print settings
 PETG · 0.2 mm layers · 3 walls · 25–30 % infill · printed flat, largest face down (no supports needed)
+
+Superseded by v3 — see below.
