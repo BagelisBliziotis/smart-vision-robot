@@ -38,8 +38,8 @@ The Arduino version reads the sensor with `pulseIn()`, which blocks the CPU whil
 
 | Day | Milestone | Video |
 |---|---|---|
-| 5 | First untethered drive — square pattern on Arduino | [watch](docs/media/day5-square-drive.mp4) |
-| 6 | Autonomous obstacle avoidance on Arduino | [watch](docs/media/day6-obstacle-avoidance.mp4) |
+| 5 | First untethered drive — square pattern on Arduino | [watch](docs/media/square-drive.mp4) |
+| 6 | Autonomous obstacle avoidance on Arduino | [watch](docs/media/obstacle-avoidance.mp4) |
 
 ---
 
