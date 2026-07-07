@@ -28,3 +28,11 @@
 | 4×AA pack − | GND rail (shared with Arduino GND) |
 | USB power bank | Arduino (USB) |
 
+## HC-SR04 ultrasonic
+
+| HC-SR04 pin | Connects to          | Notes                                   |
+|-------------|----------------------|-----------------------------------------|
+| VCC         | 5V rail (Arduino 5V) | ~15 mA, fine from the Arduino           |
+| TRIG        | Arduino D9           | 10µs HIGH pulse fires the ping          |
+| ECHO        | Arduino D10          | Direct — safe on 5V Arduino. STM32 port needs a 10k/20k divider (3.3V pin). |
+| GND         | Common GND rail      |                                         |
