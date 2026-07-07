@@ -10,7 +10,7 @@ An autonomous differential-drive robot built from scratch: 3D-printed chassis, A
 
 - [x] Chassis designed in Fusion 360, printed in PETG (v3 — see `docs/design-notes.md`)
 - [x] Drive base assembled: TT gear motors + L293D H-bridge + ball caster
-- [x] Untethered driving — square-drive test (Arduino) — [video](docs/media/day5-square-drive.mp4)
+- [x] Untethered driving — square-drive test (Arduino) — [video](docs/media/square-drive.mp4)
 - [x] Ultrasonic obstacle avoidance — fully autonomous (Arduino)
 - [ ] Motor control ported to STM32 (HAL, hardware-timer PWM)
 - [ ] Ultrasonic via timer input capture on STM32 (non-blocking)
