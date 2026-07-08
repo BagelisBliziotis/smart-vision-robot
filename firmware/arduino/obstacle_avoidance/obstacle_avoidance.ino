@@ -24,7 +24,7 @@ void setup() {
   Serial.begin(9600);        
   stopMotors();
   delay(3000);            
-
+}
 
 long readDistanceCm() {
   digitalWrite(TRIG, LOW);  delayMicroseconds(2);
