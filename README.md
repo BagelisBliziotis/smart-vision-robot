@@ -43,4 +43,4 @@ The Arduino version reads the sensor with `pulseIn()`, which blocks the CPU whil
 
 ---
 
-Built by [Bagelis Bliziotis](https://github.com/BagelisBliziotis) — ECE student at NTUA (ΣΗΜΜΥ), working toward embedded systems and robotics.
+Built by [Bagelis Bliziotis](https://github.com/BagelisBliziotis) — ECE student at NTUA (ΣΗΜΜΥ), working toward embedded systems and robotics
