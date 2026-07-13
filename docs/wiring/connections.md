@@ -36,3 +36,13 @@
 | TRIG        | Arduino D9           | 10µs HIGH pulse fires the ping          |
 | ECHO        | Arduino D10          | Direct — safe on 5V Arduino. STM32 port needs a 10k/20k divider (3.3V pin). |
 | GND         | Common GND rail      |                                         |
+
+## STM32 Discovery — motor control 
+EN1 (motor A speed) → PD12 (TIM4_CH1)
+IN1                  → PE7
+IN2                  → PE8
+EN2 (motor B speed) → PD13 (TIM4_CH2)
+IN3                  → PE9
+IN4                  → PE10
+L293D pin 16 (VCC1) → Discovery 5V
+Ground               → Discovery GND, shared with battery negative
